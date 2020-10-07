@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.welcomeScreen {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgrey;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.controls button {
+  height: 10vh;
+  width: 20vw;
+}
+
+.controls input {
+  font-size: 30px;
+  height: 10vh;
+  width: 20vw;
+}
+
+.gameText textarea {
+  display: flex;
+  width: 60vw;
+  height: 40vh;
+  resize: none;
+}
+
+/*# sourceMappingURL=WelcomePage.module.css.map */
